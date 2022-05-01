@@ -80,12 +80,40 @@ Nexus 2000
   - SAN Extension (FCIP) - Fibre Channel over IP
 
 
+# Transceivers
 
+1G Transceivers
+- Copper SFP
+- Fiber GBIC
+- Fiber SFP (mini GBIC)
 
+10G Transceivers
+- Fiber XENPAK
+- Fiber SFP+, switch to switch connectivity
+- Twinax (DAC), short distances, from TOR switch to the server within the same rack
 
+40G Transceivers
+- 40G QSFP to 4x 10G SFP+ Twinax
+- QSFP+
 
+100G Transceivers
+-CFP-100G-ER4
+- CPAK 100GBASE
 
+Cisco Transceiver Modules
+https://www.cisco.com/c/en/us/products/interfaces-modules/transceiver-modules/datasheet-listing.html
 
+Disable the check on NX OS to verify Cisco branded optics
+service unsupported-transceiver
+
+# Addresses, Protocols, and Ports 
+https://www.cisco.com/c/en/us/td/docs/security/asa/asa910/configuration/general/asa-910-general-config/ref-ports.html
+
+# IPv4 Subnetting
+https://packetlife.net/media/library/15/IPv4_Subnetting.pdf
+
+# RFC Editor
+https://www.rfc-editor.org/
 
 
 
